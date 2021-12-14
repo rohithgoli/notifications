@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+  width: 100%;
+  padding: 32px;
+}
+
+.main-heading {
+  color: #0f172a;
+  margin: auto;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.info-container {
+  margin-right: 16px;
+}
+
+.notification-name {
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+.notification-message {
+  font-size: 20px;
+  font-weight: 500;
+  color: #64748b;
+}
